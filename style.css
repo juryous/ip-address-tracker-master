@@ -1,3 +1,8 @@
+:root {
+  --Very-Dark-Gray: hsl(0, 0%, 17%);
+  --Dark-Gray: hsl(0, 0%, 59%);
+}
+
 *,
 *::before,
 *::after {
@@ -6,4 +11,47 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background: url(./images/pattern-bg.png) no-repeat top center;
+  padding-top: 0.5em;
+}
+
+.title {
+  color: white;
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  height: 70px;
+}
+
+.input {
+  font-family: inherit;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  padding-left: 2.5em;
+  width: 44%;
+  height: 100%;
+}
+
+.input::placeholder {
+  color: var(--Dark-Gray);
+  font-size: 1.4rem;
+}
+
+.btn {
+  cursor: pointer;
+  background: url(./images/icon-arrow.svg) no-repeat center;
+  background-size: 20%;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 0 2.5em;
 }
