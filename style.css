@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+  height: 100vh;
   text-align: center;
   background: url(./images/pattern-bg.png) no-repeat top center;
   background-size: contain;
@@ -99,4 +100,8 @@ li > * {
 
 .ip-data li:last-of-type {
   border: none;
+}
+
+#map {
+  height: 100%;
 }
