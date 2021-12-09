@@ -38,36 +38,36 @@
     
     <title>Frontend Mentor | IP Address Tracker</title>
   </head>
-  <body role="main">
-    <header>
-      <h1 class="title">IP Address Tracker</h1>
-
-      <form action="submit" id="form">
-          <input class="input" type="text" placeholder="Search for any IP address or domain"></input>
-          <input type="submit" value="" class="btn"></input>
-      </form>
-
-      <ul class="ip-data">
-        <li>
-          <p class="ip-data__title">IP Address</p>
-          <p class="ip-data__data" id="ip-adress">192.212.174.101</p>
-        </li>
-        <li>
-          <p class="ip-data__title">Location</p>
-          <p class="ip-data__data" id="location">Brooklyn, NY 10001</p>
-        </li>
-        <li>
-          <p class="ip-data__title">Timezone</p>
-          <p class="ip-data__data" id="timezone">UTC -05:00</p>
-        </li>
-        <li>
-          <p class="ip-data__title">ISP</p>
-          <p class="ip-data__data" id="isp">SpaceX Starlink</p>
-        </li>
-      </ul>
-    </header>
-        
-    <div id="map"></div>
+  <body>
+    <main>
+      <header>
+        <h1 class="title">IP Address Tracker</h1>
+        <form action="submit" id="form">
+            <input class="input" type="text" placeholder="Search for any IP address or domain"></input>
+            <input type="submit" value="" aria-label="submit" class="btn"></input>
+        </form>
+        <ul class="ip-data">
+          <li>
+            <p class="ip-data__title">IP Address</p>
+            <p class="ip-data__data" id="ip-adress">192.212.174.101</p>
+          </li>
+          <li>
+            <p class="ip-data__title">Location</p>
+            <p class="ip-data__data" id="location">Brooklyn, NY 10001</p>
+          </li>
+          <li>
+            <p class="ip-data__title">Timezone</p>
+            <p class="ip-data__data" id="timezone">UTC -05:00</p>
+          </li>
+          <li>
+            <p class="ip-data__title">ISP</p>
+            <p class="ip-data__data" id="isp">SpaceX Starlink</p>
+          </li>
+        </ul>
+      </header>
+      
+      <div id="map"></div>
+    </main>
     
   </body>
 </html>
