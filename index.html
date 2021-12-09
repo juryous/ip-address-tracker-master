@@ -39,30 +39,33 @@
     <title>Frontend Mentor | IP Address Tracker</title>
   </head>
   <body>
-    <h1 class="title">IP Address Tracker</h1>
+    <header>
+      <h1 class="title">IP Address Tracker</h1>
 
-    <div class="input-container">
-      <input class="input" type="text" placeholder="Search for any IP address or domain"></input> <button class="btn"></button>
-    </div>
+      <form action="" id="form">
+          <input class="input" type="text" placeholder="Search for any IP address or domain"></input>
+          <button class="btn"></button>
+      </form>
 
-    <ul class="ip-data">
-      <li>
-        <p class="ip-data__title">IP Address</p>
-        <p class="ip-data__data">192.212.174.101</p>
-      </li>
-      <li>
-        <p class="ip-data__title">Location</p>
-        <p class="ip-data__data">Brooklyn, NY 10001</p>
-      </li>
-      <li>
-        <p class="ip-data__title">Timezone</p>
-        <p class="ip-data__data">UTC -05:00</p>
-      </li>
-      <li>
-        <p class="ip-data__title">ISP</p>
-        <p class="ip-data__data">SpaceX Starlink</p>
-      </li>
-    </ul>
+      <ul class="ip-data">
+        <li>
+          <p class="ip-data__title">IP Address</p>
+          <p class="ip-data__data" id="ip-adress">192.212.174.101</p>
+        </li>
+        <li>
+          <p class="ip-data__title">Location</p>
+          <p class="ip-data__data" id="location">Brooklyn, NY 10001</p>
+        </li>
+        <li>
+          <p class="ip-data__title">Timezone</p>
+          <p class="ip-data__data" id="timezone">UTC -05:00</p>
+        </li>
+        <li>
+          <p class="ip-data__title">ISP</p>
+          <p class="ip-data__data" id="isp">SpaceX Starlink</p>
+        </li>
+      </ul>
+    </header>
         
     <div id="map"></div>
     
